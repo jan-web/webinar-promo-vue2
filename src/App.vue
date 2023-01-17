@@ -411,7 +411,7 @@ input:-webkit-autofill:active {
   border: 2px solid rgba(31, 101, 153, 0.8);
   border-radius: 2px;
   margin-right: 11px;
-  background-repeat: no-repeat;footer
+  background-repeat: no-repeat;
   background-position: center center;
 	transition: background 0.3s ease;
 }
