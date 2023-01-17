@@ -245,7 +245,7 @@ export default {
 .hero,
 .order {
 	padding-top: 28px;
-	padding-bottom: 260px;
+	padding-bottom: 330px;
 	/* background: rgb(180, 176, 176); */
 }
 .hero__section-title {
@@ -411,7 +411,7 @@ input:-webkit-autofill:active {
   border: 2px solid rgba(31, 101, 153, 0.8);
   border-radius: 2px;
   margin-right: 11px;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;footer
   background-position: center center;
 	transition: background 0.3s ease;
 }
