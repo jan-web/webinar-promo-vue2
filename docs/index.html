@@ -1,26 +1,20 @@
-<!DOCTYPE html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="favicon.ico"><title>webinar-promo-vue2</title><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script>(function() {
-        function init() {var scr = document.createElement('script'); scr.type = 'text/javascript'; scr.defer = 'defer'; scr.src = '//cdn.qform24.com/forms.js?v=' + parseInt(new Date().getTime()/1000); var scrInsert = document.getElementsByTagName('script')[0]; scrInsert.parentNode.insertBefore(scr, scrInsert);
-      setTimeout(()=> {
-            const form = app.querySelector('.order__submit-button');
-      form.addEventListener('click', (e)=> {
-        console.log('Отправка формы', e);
-        setRightHight();
-      })
-        setRightHight();
-       } , 2000)
-
-      }
-      function setRightHight(){
-        setTimeout(function() {
-          const Content = app.querySelector('.order__content');
-          const UpperSection = app.querySelector('.about-presenter');
-          const Wrapper = app.querySelector('.order__wrapper');
-          const cheight = Content.clientHeight;
-          Wrapper.style.height = cheight/20 + "px";
-          UpperSection.style.paddingBottom = cheight/1.7 + "px";
-          Content.style.top = -cheight/1.6 +"px";
-          }, 1000);
-    }
-
-        var d = document; var w = window;
-        if (d.readyState == 'complete') {init(); } else {if (w.attachEvent) {w.attachEvent('onload', init); } else {w.addEventListener('load', init, false); } } })();</script><link href="css/app.9cea921f.css" rel="preload" as="style"><link href="css/chunk-vendors.104340c7.css" rel="preload" as="style"><link href="js/app.b139427d.js" rel="preload" as="script"><link href="js/chunk-vendors.40e4db03.js" rel="preload" as="script"><link href="css/chunk-vendors.104340c7.css" rel="stylesheet"><link href="css/app.9cea921f.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but webinar-promo-vue2 doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="js/chunk-vendors.40e4db03.js"></script><script src="js/app.b139427d.js"></script></body></html>
+<!DOCTYPE html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="qform-verification" content="pGfEkVrW_SkQ"><link rel="icon" href="favicon.ico"><title>webinar-promo-vue2</title><script>(function() {
+        function init() {
+            var scr = document.createElement('script');
+            scr.type = 'text/javascript';
+            scr.defer = 'defer'; scr.src = '//cdn.qform.io/forms.js?v=' + parseInt(new Date().getTime()/1000);
+            var scrInsert = document.getElementsByTagName('script')[0];
+            scrInsert.parentNode.insertBefore(scr, scrInsert);
+        }
+        var d = document;
+        var w = window;
+        if (d.readyState === 'complete') {
+            init();
+        } else {
+          if (w.attachEvent) {
+              w.attachEvent('onload', init);
+          } else {
+              w.addEventListener('load', init, false);
+          }
+        }
+      })();</script><link href="css/app.9cea921f.css" rel="preload" as="style"><link href="css/chunk-vendors.104340c7.css" rel="preload" as="style"><link href="js/app.9f64fa2e.js" rel="preload" as="script"><link href="js/chunk-vendors.40e4db03.js" rel="preload" as="script"><link href="css/chunk-vendors.104340c7.css" rel="stylesheet"><link href="css/app.9cea921f.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but webinar-promo-vue2 doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="js/chunk-vendors.40e4db03.js"></script><script src="js/app.9f64fa2e.js"></script></body></html>

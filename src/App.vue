@@ -94,7 +94,7 @@
 									<h2 class="order__title text-center">
 										Записаться на бесплатный онлайн тренинг
 									</h2>
-									<div id="rDY37HsH" data-formid="3G1638447270NB8" class="_Forms_generate"></div>
+									<div data-formid="form_RCX93ZXBhR9j34Hf3WEau4LVTq-ZvkqW"></div>
 								</div>
 						</div>
 					</div>
